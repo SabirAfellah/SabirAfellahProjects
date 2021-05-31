@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 62,5%;
+}
+
+body{
+
+    font-family: 'Alata', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding-top:20px;
+    
+    
+}
+#logo{
+    position: absolute;
+    width:175px;
+    height:175px;
+    top:0%;
+    left:1%;
+    
+}
+
+#nav-links{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 50px;
+    padding-left: 230px;
+    width: 100%;
+}
+
+#log-in-btn{
+    position: absolute;
+    top:70px;
+    left:1500px;
+    
+    
+    
+}
+button{
+    
+    position: absolute;
+    top:48px;
+    left: 1650px;
+    background-color: #2F2E41;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    height: 70px;
+    width: 140px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    cursor: pointer; 
+    border-radius: 4px;
+ 
+}
+button:hover{
+    background-color: #706e9e;
+    transition: .1s ease-in;
+}
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;  
+ 
+} ul > li{
+    padding: 10px 30px;
+    font-size: 1rem;
+}
+#navbar > li, a{
+    color: #2F2E41;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+#navbar > li, a:hover{
+    color: #b8b4f8;
+    transition: .3s ease-in;
+   
+}
+#content{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+        
+}
+.get-started-btn{
+    background-color: #2F2E41;
+    height: 70px;
+    width: 200px;
+    color: white;
+    align-content: center;
+    border-radius: 4px;
+    text-align: center;
+    margin-right: 25px;
+    cursor: pointer;
+  
+}
+.get-started-btn:hover{
+    background-color: #706e9e;
+    transition: .1s ease-in;
+}
+p{
+    color:#2F2E41;
+    display: inline-block;
+    padding-top: 22px;
+}
+
+#text-content{
+    
+    padding: 20px 170px;
+         
+}
+
+#text-content > h1{
+    font-size:  5rem;
+    color: #2F2E41;
+    text-align: left;
+}
+#text-content > h3{
+    padding-top: 30px;
+    color:#2F2E41;
+    font-size: 1.9rem;
+    text-align: left;
+    line-height: 1.6;
+    padding-bottom: 25px;
+
+}
+
+    
+
+#illustration > img{
+    padding-right: 150px;
+
+
+    
+}
+#social{
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    padding-left: 230px;
+}
+
+#social img{
+    height:40px;
+    width: 40px;
+    
+  
+    
+}
+
+
+
+
+
