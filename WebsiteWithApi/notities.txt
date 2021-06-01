@@ -1,0 +1,11 @@
+Rome Coordinaten:
+-Basiica Di Santa Maria: 41.8981543073474, 12.499854318716997;
+-Roman Forum: 41.89262999631888, 12.486000915133749;
+
+Firenze Coordinaten:
+- Cathedral of Santa Maria del Fiore: 43.773306410058886, 11.2566520297956:
+- Ponte Vecchio: 43.7679337104311, 11.253159255569923;
+
+Venetie
+-Piazza San Marco: 45.43418124532284, 12.338477245936085;
+-Basilica S.Maria Gloriosa dei Frari: 45.43702402084758, 12.326600398543881;

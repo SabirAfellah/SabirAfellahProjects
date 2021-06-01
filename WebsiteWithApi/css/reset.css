@@ -1,0 +1,108 @@
+main{
+    padding-top: 40px;
+    margin-bottom: 90px;
+    height: 100%;
+    width: 100%;
+    
+
+}
+#map{
+    height: 465px;
+    /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0, 0, 0,0.19);*/
+    border-radius: 3px;
+}
+.leaflet{
+    padding: 15px;
+}
+.book{
+    padding-top: 30;
+    padding-left: 30px;
+}
+
+
+.article-box{
+    margin-bottom: 100px;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 5fr 6fr ;
+    gap: 50px;
+    
+}
+
+.article-image{
+    margin: 0;
+    padding: 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    
+
+}
+
+.article-image img{
+    width:100%;
+    height: auto;
+}
+
+.artikel-card{
+    background: white;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+
+}
+
+.artikel-card2{
+    background: white;
+    border-radius: 3px;
+    
+
+}
+
+.inhoud {
+    padding: 2rem;
+    
+}
+
+.inhoud .categorie{
+    font-size: 0.87rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em ;
+    font-weight: 600;
+    color:  #ac8e53;
+    display: block;
+    text-decoration: none;
+}
+
+.inhoud .titel-artikel{
+    margin: 1rem 0;
+}
+
+.inhoud p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 0;
+}
+
+.book a{
+    background:  #41300f;
+    padding: 20px 150px ;
+    border-radius: 3px;
+    text-decoration: none;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+    letter-spacing: 3px;
+    transition-duration: 0.5s;
+}
+.book a:hover{
+    background-color: rgb(129, 99, 73);
+
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .artikel-card{
+        display: grid;
+        grid-template-rows: 220px, 1fr;
+    }
+}
+

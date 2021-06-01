@@ -1,0 +1,142 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>detail</title>
+
+
+    <!-- Fonts van Googlefonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Passion+One:wght@900&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet"> 
+
+    <!--Leaflet-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+
+    <!--CSS Link/Javascript-->
+    <link rel="stylesheet" type="text/ css" href="css/style.css">
+    <link rel="stylesheet" type="text/ css" href="css/reset.css">
+    <link rel="stylesheet" type="text/ css" href="css/fonts.css">
+    <script src="/js/romeForum.js" defer></script>
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="/index.html"><h1 id="Logo">U-Trip<span>Advice</span></h1></a>
+        <input type="search" name="zoekbalk" placeholder="Zoeken">
+        <nav> 
+            <ul>
+                <li><a href="/index.html">Home</a> </li>
+                <li><a href="/trip.html">Trip</a></li>
+                <li class="contact"><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <main>
+        
+        <div class="article-box">
+            <article class="artikel-card">
+                <figure class="article-image">
+                    <img src="/assets/Rome - Roman-Forum.jpg" alt="Roman Forum">
+                </figure>
+                <div class="inhoud">
+                    <a href="#" class="categorie">Trip</a> 
+                    <h3 class="titel-artikel"> Roman Forum</h3>
+                    <p class="beschrijving">
+                        Het Forum Romanum (Latijn voor Romeins marktplein) was in de oudheid het centrum van Rome. 
+                        Het forum was in de gloriedagen van het Romeinse Rijk het politieke, juridische, religieuze en commerciële centrum van de stad. 
+                        Van oorsprong was het Forum Romanum een open vlakte tussen de heuvels Capitool, Palatijn, Velia en Esquilijn. 
+                        Er ontsprong een natuurlijke bron en er liep een beek doorheen, de Velabrum, die uitmondde in een moerasachtig gebied bij de Tiber. De beek stroomde uit de dalen van de verderop gelegen heuvels Quirinaal, Viminaal, Oppius en Cispius, en kruiste het forum van het noorden naar het zuiden. De Velabrum werd op bij het forum verder gevoed door diverse bronnen en stroompjes, waarvan de belangrijkste op de Velia lag. 
+                        De lager gelegen delen van het dal waren drassig en overstroomden regelmatig. 
+
+                    </p>
+                </div>
+            </article>
+            <article class="artikel-card2">
+                <div id="leaflet">
+                    <div id="map"> 
+                    </div> 
+                </div>
+                <div class="inhoud">
+                    <a href="#" class="categorie"></a> 
+                    <h3 class="titel-artikel"> INTRESSE?</h3>
+                    <p class="beschrijving">
+                        Bent u geïntresseerd om dit bezienswaardigheid in het echt te bezoeken? 
+                        Wij hebben de beste hotels voor de beste prijzen voor u geregeld. Om te boeken klik hier beneden. 
+                        Verder zullen we u de beste vluchts en hotels aanraden. 
+
+                    </p>
+
+                </div>
+                <div class="book">
+                    <a href="#">BOOK NU</a>
+                </div>
+
+            </article>
+
+
+        </div>
+      
+
+        
+    </main>
+    <footer>
+        <div class="nieuwsbrief">
+            <div class="ftr">
+                <h3>About</h3>
+                <ul class="content">
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Teams</a></li>
+                    <li><a href="#">Work</a></li>
+                </ul>
+
+            </div>
+            <div class="ftr">
+                <h3>Contact</h3>
+                <ul class="content">
+                    <li><a href="#">tripadvice@gmail.com</a></li>
+                    <li><a href="#">03 784 45 36</a></li>
+                    <li><a href="#">Antwerpen 2060</a></li>
+                </ul>
+
+            </div>
+            <div class="ftr">
+                <h3>Social</h3>
+                <ul class="content">
+                    <li><a href="#"><img class = "logo" src="/assets/facebook-4-128.png" alt="facebook"> </a></li>
+                    <li><a href="#"><img class = "logo" src="/assets/instagram-4-128.png" alt="intstagram"></a></li>
+                    <li><a href="#"><img class = "logo" src="/assets/email-14-128.png" alt="email"> </a></li>
+                </ul>
+
+            </div>
+            <div class="ftr">
+                <h3>Abonneer op onze nieuwsbrief</h3>
+                <form action="#">
+                    <input type="email" id="email" placeholder="Vul hier uw e-mail">
+                    <div class="knop">
+                        <input type="submit" value="Aboneer">
+
+                    </div>
+                </form>
+
+            </div>
+            
+        </div>
+        <p>Website gemaakt door &copy;Sabir Afellah El Gaafari AP Schooljaar 2020-2021</p>
+
+    </footer>
+    
+</body>
+</html>

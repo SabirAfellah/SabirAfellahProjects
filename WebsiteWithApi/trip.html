@@ -1,0 +1,133 @@
+<html lang="nl-BE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">  
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Passion+One:wght@900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Passion+One:wght@900&display=swap" rel="stylesheet"> 
+    <script src="/javascript/javascript.js" defer></script>
+    <link rel="stylesheet" type="text/ css" href="css/style.css">
+    <link rel="stylesheet" type="text/ css" href="css/reset.css">
+    <link rel="stylesheet" type="text/ css" href="css/fonts.css">
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+
+    <title>index</title>
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="/index.html"><h1 id="Logo">U-Trip<span>Advice</span></h1></a>
+        <input type="search" name="zoekbalk" placeholder="Zoeken">
+        <nav> 
+            <ul>
+                <li><a href="/index.html">Home</a> </li>
+                <li><a href="/trip.html">Trip</a></li>
+                <li class="contact"><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <section>
+
+ 
+        <h1>Kies hier uw bezienswaadigheid</h1>
+
+        <div class="keuzelijst">
+
+            <div class="keuze-rome">
+                <h3>Rome</h3>
+                <a href="detailRome1.html"><img src="/assets/Rome - Basilica_di_Santa_Maria.jpg" alt="afbeelding Rome" title="Basilica Papale Di Santa Maria"></a>
+                <div class="container2">
+                    <a  href="detailRome1.html"><p>Basilica Papale Di Santa Maria</p></a>
+                </div>
+        
+                <a href="detailRome2.html"><img src="assets/Rome - Roman-Forum.jpg" alt="afbeelding Rome" title="Roman Forumm"></a>
+                <div class="container">
+                <a  href="detailRome2.html"><p>Roman Forum</p></a> 
+                </div>
+            </div>
+
+            <div class="keuze-firenze">
+                <h3>Firenze</h3>
+                <a href="detailFirenze1.html"><img src="assets/Firenze - Cattedrale di Santa Maria.jpg" alt="afbeelding Firenze" title="Cattedrale di Santa Maria"></a>
+                <div class="container2">
+                    <a href="detailFirenze1.html"><p >Cattedrale di Santa Maria del Fiore</p></a>
+                </div>
+
+                <a href="detailFirenze2.html"><img src="/assets/Firenze - ponte-vecchio.jpg" alt="afbeelding Firenze" title="Ponte Vecchio"></a>
+                <div class="container">
+                    <a href="detailFirenze2.html"><p>Ponte Veccio</p></a>
+                </div>
+            </div>
+
+            <div class="keuze-venetië">
+                <h3>Venetië</h3>
+                <a href="detailVenetië1.html"><img src="assets/Venetie - PiazzaSanMarco.jpg" alt="afbeelding Venetië" title="Piazza San Marco"></a>
+                <div class="container2">
+                    <a href="detailVenetië1.html"> <p >Piazza San Marco</p> </a>
+                </div>
+                <a href="detailVenetië2.html"><img src="assets/Venetie - santa-maria.jpg" alt="afbeelding Firenze" title="Basilica S.Maria Gloriosa"></a>
+                <div class="container">
+                    <a href="detailVenetië2.html"><p>Basilica S.Maria Gloriosa dei Frari</p></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="nieuwsbrief">
+            <div class="ftr">
+                <h3>About</h3>
+                <ul class="content">
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Teams</a></li>
+                    <li><a href="#">Work</a></li>
+                </ul>
+
+            </div>
+            <div class="ftr">
+                <h3>Contact</h3>
+                <ul class="content">
+                    <li><a href="#">tripadvice@gmail.com</a></li>
+                    <li><a href="#">03 784 45 36</a></li>
+                    <li><a href="#">Antwerpen 2060</a></li>
+                </ul>
+
+            </div>
+            <div class="ftr">
+                <h3>Social</h3>
+                <ul class="content">
+                    <li><a href="#"><img class = "logo" src="/assets/facebook-4-128.png" alt="facebook"> </a></li>
+                    <li><a href="#"><img class = "logo" src="/assets/instagram-4-128.png" alt="intstagram"></a></li>
+                    <li><a href="#"><img class = "logo" src="/assets/email-14-128.png" alt="email"> </a></li>
+                </ul>
+
+            </div>
+            <div class="ftr">
+                <h3>Abonneer op onze nieuwsbrief</h3>
+                <form class ="brief" action="#">
+                    <input type="email" id="email" placeholder="Vul hier uw e-mail">
+                    <div class="knop">
+                        <input type="submit" value="Aboneer">
+                    </div>
+                </form>
+
+            </div>
+            
+        </div>
+        <p>Website gemaakt door &copy;Sabir Afellah El Gaafari AP Schooljaar 2020-2021</p>
+    </footer>
+
+  
+</body>
+</html>

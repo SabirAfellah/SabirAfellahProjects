@@ -1,0 +1,493 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body, html{
+    margin:0;
+    padding:0;
+    background: #f0f4fb;
+    height: 100%;
+}
+
+
+
+/*Navbar*/
+.navbar input{
+    float: right;
+    margin: 10px;
+    font-size: 15px;
+    color: rgb(168, 184, 132);
+    background-color:#282e17;
+    border: none;
+    border-bottom: rgb(168, 184, 132);
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+}
+
+header{
+    background-color: #282e17;
+    height: 60px;
+    width: 100%;
+    position: absolute;
+  
+}
+
+header h1{
+    font-family: 'Passion One', cursive;
+    position: absolute;
+    padding: 3px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 10px;
+    color:rgb(255, 255, 255);
+}
+
+span{
+    color: rgb(181, 196, 127);
+    font-family: 'Passion One', cursive;
+    
+}
+
+header ul{
+    
+    width: auto;
+    text-align: center;
+    padding-top:5px;
+    margin: 0;
+    padding-left: 320px;
+    
+}
+
+header a {
+
+    text-decoration: none;
+    color: rgb(206, 223, 168);
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    
+}
+
+header li{
+    
+    display: inline-block;
+    padding: 15px 30px;
+    
+}
+
+header li.contact{
+
+    border-radius: 2px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+header a{
+    text-decoration: none;
+    color:rgb(168, 184, 132);
+    font-size: 1vw;
+}
+header a:hover{
+    color: rgb(219, 162, 16);
+    transition-duration: 0.5s;
+}
+/* Einde navbar CSS*/
+
+/*Content CSS*/
+
+section{
+
+    padding: 50px;
+}
+
+.inleiding{
+   
+    display: flex;
+    align-items: flex-start;
+    background-color: #41300f;
+    margin-top: 70px;
+    margin-left: 120px;
+    margin-right: 120px;
+    font-size: 16px;
+    text-align: justify;
+    border-radius: 5px;
+
+    
+}
+.ik{
+    
+    padding-top:70px;
+    padding-left: 40px;
+    padding-right: 50px;
+    color: #f0f4fb;
+  
+    letter-spacing: 3px;
+
+    
+}
+
+.pf img{
+
+    width:420px;
+    height: 420px;
+}
+
+.inleiding2{
+   
+    display: flex;
+    border:solid 1px #684d17;
+    margin-top: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+    font-size: 16px;
+    text-align: justify;
+    border-radius: 5px;
+    margin-bottom: 50px;
+
+}
+
+.ik2 {
+    
+    padding-top:70px;
+    padding-left: 40px;
+    padding-right: 50px;
+    color: #684d17;
+    letter-spacing: 3px;
+
+    
+}
+
+.ik2 p{
+
+    padding-bottom: 70px;
+ 
+}
+
+.ik2 a {
+    color: white;
+    padding: 20px 70px;
+    background-color: #41300f;
+    transition-duration: 0.5s;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+}
+
+.ik2 a:hover{
+    color: white;
+    background-color: rgb(129, 99, 73);
+ 
+}
+
+.pf2 img{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width:420px;
+    height: 420px;
+}
+
+
+
+
+h1{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    color: #41300f;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+   
+}
+
+h3{
+
+    color: #6E5016;
+    text-align: center;
+    font-size: 1.35rem;
+    font-weight: bolder;
+    padding-top:20px;
+    
+}
+
+.keuzelijst img{
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 350px;
+    margin-top: 50px;
+    padding-bottom: 15px;
+    transition-duration: 0.5s;
+    opacity: 1;
+    
+}
+
+.keuzelijst img:hover{
+    opacity: 0.7;
+    cursor: pointer;
+
+}
+
+div.keuzelijst{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr ;
+    justify-content: space-evenly ;
+    padding-top: 50px;
+    margin-bottom: 70px;
+
+}
+
+.keuzelijst a {
+    text-decoration: none;
+    color: #5c4a26;
+    font-size: 1.15em;
+}
+.keuzelijst a:hover {
+    color: darkorange;
+    transition-duration: .6s easy opacity;
+
+}
+
+div.keuze-rome{
+    
+    background: #f0f4fb;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+    margin-bottom: 25px;
+    margin-right:28px;
+    margin-left: 38px;  
+    padding-right: 28px;
+    padding-left: 28px;
+
+}
+div.keuze-firenze{
+    background: #f0f4fb;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+    margin-bottom: 25px;
+    margin-left: 38px;
+    margin-right: 28px;
+    padding-right: 28px;
+    padding-left: 28px;
+  
+    
+}
+div.keuze-venetië{
+
+    background: #f0f4fb;;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+    margin-bottom: 25px;
+    margin-left: 38px;
+    margin-right:28px;
+    padding-right: 28px;
+    padding-left: 28px;
+   
+}
+
+
+div.container2{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 1.0rem;
+    border-bottom-color: #41300f;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+div.container{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 1.0rem;
+}
+
+.formulier{
+
+   
+    display: block;
+    border: 10px solid #282e17;
+    border-radius: 3px;
+    margin: 80px auto;
+    padding: 60px 20px 15px 20px;
+    max-width: 750px;
+    background-color: #282e17;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.35), 0 6px 20px 0 rgba(0, 0, 0,0.1);
+
+}
+.formulier p{
+    color: white;
+}
+.title{
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.title h2{
+    padding: 1 10px 0 10px;
+    margin:5px 0;
+    color:white;
+}
+
+.feedback{
+    padding: 10px 10px 0 0;
+}
+
+hr{
+    width: 745px;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    height: 3px;
+    background-color: white;
+}
+
+.formulier input, textarea{
+    width: 100%;
+    border-radius: 2px;
+    resize:none;
+    padding: 10px 5px;
+    box-sizing: border-box;
+}
+input[type="text"]{
+    padding: 10px;
+    height: 40px;
+    width: 100%;
+
+}
+.form-input{
+    margin: 3px 0 20px 0;
+}
+.form-textarea{
+    margin:5px 0;
+    width: 100%;
+    height: 250px;
+    border: none;
+}
+
+.submitknop{
+    width: 100%;
+    height: 50px;
+    background-color: #718142;
+    border: none;
+    color: whitesmoke;
+    border: 5px solid #718142;
+    border-radius: 5px; 
+    margin: 10px 0 0 0;
+    font-size: 20px;
+    cursor: pointer;
+    transition-duration: .5s;
+}
+.submitknop:hover{
+    border-color: olivedrab;
+    background-color:olivedrab;
+}
+
+
+/*Einde Content CSS*/
+
+/*Footer CSS*/
+footer{
+    background-color: #282e17;
+    width: 100%;  
+    padding-top: 10px;
+
+}
+
+footer p{
+    background: #0f0b0391;
+    color: #f5f5f5c7;
+    text-align: center;
+    padding: 15px;
+
+}
+
+footer .nieuwsbrief{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .ftr h3{
+    font-size: 1.4em;
+    font-weight: bolder;
+    margin-bottom: 1.2em;
+    color: #fff;
+
+}
+
+footer .content{
+    list-style: none;
+    margin-left: 70px;
+    padding-bottom: 15px;
+    
+
+}
+
+footer .content a{
+    text-decoration: none;
+    opacity: .6;
+    line-height: 30px;
+    transition: .3s ease opacity;
+    color: #bcc99afa;
+}
+
+footer .content a:hover{
+    opacity: 1;
+}
+
+footer .ftr{
+    flex-basis: 18%;
+}
+
+.ftr form {
+
+    display: flex;
+    align-items: center;
+    width: 100%;
+   
+
+}
+input{
+    border:none;
+    outline:none;
+    padding-left: 50px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 5px 0;
+    background: #f5f5f5;
+}
+.logo{
+    width: 30px ;
+    height: 30px;
+}
+
+.knop input{
+    background: rgb(38, 68, 160);
+    color: #fff;
+    transition: .3s ease background;
+}
+.knop input:hover{
+    background: #000;
+}
+
+@media only screen and (max-width: 540px){
+    footer .ftr{
+        flex-basis: 80%;
+        margin: 0 auto;
+
+    }
+    form{
+        flex-direction: column-reverse;
+    }
+    form input{
+        width: 90%;
+        margin: 5px auto;
+    }
+}

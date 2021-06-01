@@ -1,0 +1,141 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>detail</title>
+
+
+    <!-- Fonts van Googlefonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Passion+One:wght@900&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <!--Leaflet-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+
+    <!--CSS Link/Javascript-->
+    <link rel="stylesheet" type="text/ css" href="css/style.css">
+    <link rel="stylesheet" type="text/ css" href="css/reset.css">
+    <link rel="stylesheet" type="text/ css" href="css/fonts.css">
+    <script src="/js/venetiëPiazza.js" defer></script>
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="/index.html"><h1 id="Logo">U-Trip<span>Advice</span></h1></a>
+        <input type="search" name="zoekbalk" placeholder="Zoeken">
+        <nav> 
+            <ul>
+                <li><a href="/index.html">Home</a> </li>
+                <li><a href="/trip.html">Trip</a></li>
+                <li class="contact"><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        
+            <div class="article-box">
+                <article class="artikel-card">
+                    <figure class="article-image">
+                        <img src="/assets/Venetie - piazza-san-marco.jpg" alt="Piazza San Marco">
+                    </figure>
+                    <div class="inhoud">
+                        <a href="#" class="categorie">Trip</a> 
+                        <h3 class="titel-artikel"> Piazza San Marco</h3>
+                        <p class="beschrijving">
+                            Het San Marcoplein (Piazza San Marco) is het centrale plein van de Italiaanse stad Venetië.
+                            Aan het plein bevinden zich onder andere de ingang van het Dogepaleis en de San Marco, de kathedraal van Venetië. 
+                            Verder staan er de Biblioteca Marciana, de Campanile en de klokkentoren Torre dell'Orologio die gebouwd werd tussen 1496 en 1499. 
+                            Ook zijn hier de musea Museo Correr en het Archeologisch Museum te vinden. Achter het San Marcoplein is Bacino Orseolo, een opstapplaats voor gondelvaarten.
+                            Op het San Marcoplein zijn terrassen. Aan het plein is een galerij met winkels en horecagelegenheden, waaronder het Caffè Florian, een bekend koffiehuis uit 1720.
+                            Het komt bij hoge waterstanden regelmatig voor dat het plein onderloopt. 
+                        </p>
+                    </div>
+                </article>
+                <article class="artikel-card2">
+                    <div id="leaflet">
+                        <div id="map"> 
+                        </div> 
+                    </div>
+                    <div class="inhoud">
+                        <a href="#" class="categorie"></a> 
+                        <h3 class="titel-artikel"> INTRESSE?</h3>
+                        <p class="beschrijving">
+                            Bent u geïntresseerd om dit bezienswaardigheid in het echt te bezoeken? 
+                            Wij hebben de beste hotels voor de beste prijzen voor u geregeld. Om te boeken klik hier beneden. 
+                            Verder zullen we u de beste vluchts en hotels aanraden. 
+
+                        </p>
+
+                    </div>
+                    <div class="book">
+                        <a href="#">BOOK NU</a>
+                    </div>
+
+                </article>
+
+            </div>
+
+        
+    </main>
+    <footer>
+        <div class="nieuwsbrief">
+            <div class="ftr">
+                <h3>About</h3>
+                <ul class="content">
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Teams</a></li>
+                    <li><a href="#">Work</a></li>
+                </ul>
+
+            </div>
+            <div class="ftr">
+                <h3>Contact</h3>
+                <ul class="content">
+                    <li><a href="#">tripadvice@gmail.com</a></li>
+                    <li><a href="#">03 784 45 36</a></li>
+                    <li><a href="#">Antwerpen 2060</a></li>
+                </ul>
+
+            </div>
+            <div class="ftr">
+                <h3>Social</h3>
+                <ul class="content">
+                    <li><a href="#"><img class = "logo" src="/assets/facebook-4-128.png" alt="facebook"> </a></li>
+                    <li><a href="#"><img class = "logo" src="/assets/instagram-4-128.png" alt="intstagram"></a></li>
+                    <li><a href="#"><img class = "logo" src="/assets/email-14-128.png" alt="email"> </a></li>
+                </ul>
+
+            </div>
+            <div class="ftr">
+                <h3>Abonneer op onze nieuwsbrief</h3>
+                <form action="#">
+                    <input type="email" id="email" placeholder="Vul hier uw e-mail">
+                    <div class="knop">
+                        <input type="submit" value="Aboneer">
+
+                    </div>
+                </form>
+
+            </div>
+            
+        </div>
+        <p>Website gemaakt door &copy;Sabir Afellah El Gaafari AP Schooljaar 2020-2021</p>
+
+    </footer>
+    
+</body>
+</html>

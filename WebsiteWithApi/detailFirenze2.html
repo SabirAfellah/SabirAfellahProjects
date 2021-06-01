@@ -1,0 +1,145 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>detail</title>
+
+
+    <!-- Fonts van Googlefonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Passion+One:wght@900&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet"> 
+
+    <!--Leaflet-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+
+    <!--CSS Link/Javascript-->
+    <link rel="stylesheet" type="text/ css" href="css/style.css">
+    <link rel="stylesheet" type="text/ css" href="css/reset.css">
+    <link rel="stylesheet" type="text/ css" href="css/fonts.css">
+    <script src="/js/firenzePonte.js" defer></script>
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="/index.html"><h1 id="Logo">U-Trip<span>Advice</span></h1></a>
+        <input type="search" name="zoekbalk" placeholder="Zoeken">
+        <nav> 
+            <ul>
+                <li><a href="/index.html">Home</a> </li>
+                <li><a href="/trip.html">Trip</a></li>
+                <li class="contact"><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        
+        <div class="article-box">
+            <article class="artikel-card">
+                <figure class="article-image">
+                    <img src="/assets/Firenze - ponte-vecchio.jpg" alt="Ponte Vecchio">
+                </figure>
+                <div class="inhoud">
+                    <a href="#" class="categorie">Trip</a> 
+                    <h3 class="titel-artikel"> Ponte Vecchio</h3>
+                    <p class="beschrijving">
+                        De Ponte Vecchio (Italiaans: oude brug), is een beroemde middeleeuwse brug over de rivier de Arno in Florence, Italië. Op en aan de brug zijn winkeltjes gevestigd. Het zijn vooral juweliers. Op een extra niveau boven de brug bevindt zich de Corridoio Vasariano. Deze besloten passage van ongeveer een kilometer lang is in opdracht van Cosimo I de' Medici in 1565 gebouwd door Giorgio Vasari. 
+                        Hij had ten doel de leden van de familie de' Medici een route te bieden tussen hun paleizen Palazzo Vecchio en Palazzo Pitti zonder zich onder het volk te hoeven begeven. 
+                        Volgens de overlevering was de brug in de Romeinse tijd gemaakt van hout. Nadat deze was verwoest door een overstroming in 1333, werd ze herbouwd in 1345, deze keer in steen. De architecten ontwierpen een brug met drie bogen, waarvan de middelste een overspanning van 30 meter heeft, terwijl de andere twee bogen een overspanning van 27 meter hebben. 
+
+
+                    </p>
+                </div>
+            </article>
+            <article class="artikel-card2">
+                <div id="leaflet">
+                    <div id="map"> 
+                    </div> 
+                </div>
+                <div class="inhoud">
+                    <a href="#" class="categorie"></a> 
+                    <h3 class="titel-artikel"> INTRESSE?</h3>
+                    <p class="beschrijving">
+                        Bent u geïntresseerd om dit bezienswaardigheid in het echt te bezoeken? 
+                        Wij hebben de beste hotels voor de beste prijzen voor u geregeld. Om te boeken klik hier beneden. 
+                        Verder zullen we u de beste vluchts en hotels aanraden. 
+
+                    </p>
+
+                </div>
+                <div class="book">
+                    <a href="#">BOOK NU</a>
+                </div>
+
+            </article>
+
+
+
+        </div>
+
+        
+        
+
+        
+    </main>
+    <footer>
+        <div class="nieuwsbrief">
+            <div class="ftr">
+                <h3>About</h3>
+                <ul class="content">
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Teams</a></li>
+                    <li><a href="#">Work</a></li>
+                </ul>
+
+            </div>
+            <div class="ftr">
+                <h3>Contact</h3>
+                <ul class="content">
+                    <li><a href="#">tripadvice@gmail.com</a></li>
+                    <li><a href="#">03 784 45 36</a></li>
+                    <li><a href="#">Antwerpen 2060</a></li>
+                </ul>
+
+            </div>
+            <div class="ftr">
+                <h3>Social</h3>
+                <ul class="content">
+                    <li><a href="#"><img class = "logo" src="/assets/facebook-4-128.png" alt="facebook"> </a></li>
+                    <li><a href="#"><img class = "logo" src="/assets/instagram-4-128.png" alt="intstagram"></a></li>
+                    <li><a href="#"><img class = "logo" src="/assets/email-14-128.png" alt="email"> </a></li>
+                </ul>
+
+            </div>
+            <div class="ftr">
+                <h3>Abonneer op onze nieuwsbrief</h3>
+                <form action="#">
+                    <input type="email" id="email" placeholder="Vul hier uw e-mail">
+                    <div class="knop">
+                        <input type="submit" value="Aboneer">
+
+                    </div>
+                </form>
+
+            </div>
+            
+        </div>
+        <p>Website gemaakt door &copy;Sabir Afellah El Gaafari AP Schooljaar 2020-2021</p>
+
+    </footer>
+    
+</body>
+</html>
