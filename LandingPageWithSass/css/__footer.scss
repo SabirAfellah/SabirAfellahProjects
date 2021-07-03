@@ -1,0 +1,47 @@
+
+footer{
+    background-color: $backgroundColor;
+    p{
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .footer-wrapper{
+        background-color: $backgroundColor;
+        display: flex;
+        justify-content: center;
+        gap:8rem;
+        margin-bottom: 4rem;
+        .socials  i {
+            transform: scale(2);
+
+           
+        }
+        
+        li{
+            
+            text-decoration: none;
+            list-style: none;
+            line-height: 3rem;
+            color: $fontColor;
+            cursor: pointer;
+            &:hover{
+                color: $primaryColor;
+                transition: .2s ease-in;
+                transform: scaleX(1.01);
+            }
+     
+        }
+        h2{
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: $titleColor;
+            padding-bottom: 3rem;
+    
+        }
+        
+
+        
+    }
+
+}

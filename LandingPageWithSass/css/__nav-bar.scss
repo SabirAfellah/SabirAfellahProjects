@@ -1,0 +1,48 @@
+.nav-bar{
+    position: fixed;
+    width: 100%;
+    background-color: $backgroundColor;
+    padding: 1.3rem 6.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    .logo{
+        text-transform: uppercase;
+        color: $titleColor;
+    }
+    .nav-links ul li{
+        
+        display: inline-block;
+        justify-content: space-between;
+        margin-left: 2.35rem;
+        
+        li, a{
+            text-decoration: none;
+            color: $fontColor;
+            &:hover{
+                color: $primaryColor;
+                transition: .2s ease-in;
+            }
+        }
+        button{
+            background-color: $backgroundColor;
+            border: none;
+            i{
+                transform: scale(1.5);
+                cursor: pointer;
+                color: $fontColor;
+                &:hover{
+                    color: $primaryColor;
+                    transition: .2s ease-in;
+                }
+            }
+        }
+        
+    }
+    .nav-burger{
+        visibility: hidden;
+        position: absolute;
+    }
+
+}

@@ -1,0 +1,62 @@
+.About-Box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    padding-left: 11rem;
+    
+    
+    h1{
+        letter-spacing: 5px;
+        color: $primaryColor;
+        border-bottom: solid $primaryColor 1px;
+        width: fit-content;
+        text-transform: uppercase;
+        margin-bottom: 6rem;
+    }
+    h2{
+        font-size: 3rem;
+        color: $fontColor;
+        font-weight: 400;
+        
+    }
+    p{
+        font-size: 1.15rem;
+        margin-top: 1.5rem;
+        line-height: 2rem;
+    }
+    button{
+        background-color: $primaryColor;
+        width: 14rem;
+        height: 3.75rem;
+        border:none;
+        border-radius: 6px;
+        font-size: 1.2rem;
+        color: $fontColorDM;
+        letter-spacing: .15rem;
+        cursor: pointer;
+        margin-top: 4rem;
+        &:hover{
+            background-color: $titleColor;
+            transition: .3s ease-in;
+            transform: scale(1.05);
+        }
+
+
+    }
+    .text-content{
+        width: 100%;
+    }
+
+    .desc-image{
+        width: 100%;
+        
+    }
+
+    img{
+        border-radius: 6px;
+        margin-left: 8rem;
+    
+    }  
+    
+}

@@ -1,0 +1,96 @@
+.Contact-Us-Box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding-left: 11rem;
+    padding-right: 11rem;
+    .form{
+        padding-top: 20rem;
+    }
+    
+    
+    form{
+        
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        border-left: solid 1px $primaryColor;
+        padding-left: 4rem;
+        
+        input{
+            width: 400px;
+            height: 40px;
+            font-size: 1.15rem;
+            text-transform: uppercase;
+            padding: 1rem;
+            letter-spacing: 3px;
+            border: none;
+            border-bottom: solid $primaryColor 2px;
+            color: $primaryColor;
+            outline:none;
+            background-color: $backgroundColor;
+            border-radius: 8px;
+ 
+        }
+        textarea{
+            width: 400px;
+            height: 200px;
+            font-size: 1.15rem;
+            font-family: 'Poppins', sans-serif;
+            text-transform: uppercase;
+            padding: 1rem;
+            letter-spacing: 3px;
+            border: none;
+            border-bottom: solid $primaryColor 2px;
+            color: $primaryColor;
+            outline: none;
+            resize: none;
+            font-size: 1.15rem;
+            background-color: $backgroundColor;
+            border-radius: 8px;
+            
+        }
+        button{
+            background-color: $primaryColor;
+            width: 14rem;
+            height: 3.75rem;
+            border:none;
+            border-radius: 6px;
+            font-size: 1.2rem;
+            color: $fontColorDM;
+            letter-spacing: .15rem;
+            cursor: pointer;
+            
+            &:hover{
+                background-color: $titleColor;
+                transition: .3s ease-in;
+                transform: scale(1.05);
+            }
+
+        }
+
+    }
+
+    h1{
+        letter-spacing: 5px;
+        color: $primaryColor;
+        border-bottom: solid $primaryColor 1px;
+        width: fit-content;
+        text-transform: uppercase;
+        margin-bottom: 6rem;
+    }
+    h2{
+        font-size: 2rem;
+        font-weight: 500;
+        color: $titleColor;
+        margin-bottom: 3rem;
+    }
+    P{
+        font-size: 1.1rem;
+        letter-spacing: 1px;
+        line-height: 1.5rem;
+    }
+  
+    
+}

@@ -1,0 +1,108 @@
+@import './_fonts';
+@import './_variable';
+@import './_nav-bar';
+@import './_Home-Box';
+@import './_About-Box';
+@import './_Services-Box';
+@import './_Menu-Box';
+@import './_Contact-Us';
+@import './_footer';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.dark-theme{
+    background-color: $backgroundColorDM;
+    p{
+        color: $fontColorDM;
+    }
+    h1{
+        color: $fontColorDM;
+    }
+    h2{
+        color: $primaryColor;
+    }
+    .nav-links{
+        ul li a {
+            color: $fontColorDM;
+        }
+        ul li button i{
+            color: $fontColorDM;
+            background-color: $backgroundColorDM;
+        }
+    }
+
+    .Menu-Wrapper{
+        .menu1{
+            background-color:  hsl(148, 27%, 10%);
+        }
+        .menu2{
+            background-color:  hsl(148, 27%, 10%);
+        }
+        .menu3{
+            background-color:  hsl(148, 27%, 10%);
+        }
+        
+        
+
+        p{
+            color: $fontColorDM;
+        }
+        h1{
+            color: $fontColorDM;
+        }
+        h2{
+            color: $primaryColor;
+        }
+ 
+    }
+
+    .form{
+        input{
+            background-color: hsl(148, 26%, 11%);
+            
+        }
+        textarea{
+            background-color: hsl(148, 26%, 11%);
+        }
+        
+    }
+    .footer-wrapper{
+        background-color: $backgroundColorDM;
+        ul li {
+            color: $fontColorDM;
+            
+        }
+    }
+
+
+   
+}
+
+section{
+    height: 100vh;
+    background-color: $backgroundColor;
+    padding: 0 6.5rem 5.5rem;
+}
+
+.home-btn{
+    position: fixed;
+    width: 48px;
+}
+
+
+
+
+
+
+
+
+
+
+
