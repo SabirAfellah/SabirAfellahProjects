@@ -1,0 +1,174 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  padding: 0;
+}
+
+.navbar{
+  
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 7rem;
+  align-items: center;
+  justify-items: center;
+  justify-self: center;
+  
+}
+
+.nav-links{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.nav-links ul{
+
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0px 2rem;
+
+}
+.nav-links a{
+  color: hsl(257, 7%, 63%);
+  text-decoration: none;
+  padding: 1rem;
+  font-weight: 700;
+}
+.nav-links a:hover{
+  color: hsl(260, 8%, 14%);
+ 
+}
+
+.sign ul{
+
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  
+}
+.sign li{
+  padding: 0 1.5rem;
+}
+
+.sign a{
+  color: hsl(257, 7%, 63%);
+  text-decoration: none;
+  margin: 1rem;
+  font-weight: 700; 
+}
+
+.sign a:hover{
+  color: hsl(260, 8%, 14%);
+}
+
+#sign-up {
+  border-radius: 24px;
+  background-color: hsl(180, 66%, 49%);
+  padding: .5rem .8rem;
+}
+#sign-up a{
+  color: white;
+}
+#sign-up:hover{
+  background-color: hsl(180, 59%, 70%);
+  cursor: pointer;
+}
+
+.page{
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 7rem;
+  padding-top: 6rem;
+}
+
+
+.get-started h1{
+  font-weight: 700;
+  color:  hsl(260, 8%, 14%);
+  font-size: 6rem;
+  line-height: 5rem;
+  padding-bottom: 14px;
+}
+
+.get-started p{
+  color: hsl(257, 7%, 63%);
+  font-weight: 600;
+  font-size: 1.3rem;
+  padding-bottom: 1.5rem;
+  line-height: 1.75rem;
+}
+
+.get-started button{
+  background-color: hsl(180, 66%, 49%);
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  border-radius: 24px;
+  padding: .9rem 2rem;
+}
+.get-started button:hover{
+  background-color: hsl(180, 59%, 70%);
+  cursor: pointer;
+
+}
+
+
+
+.footer{
+  background-color: hsl(260, 8%, 14%);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 9rem;
+ 
+}
+
+.links{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.links ul{
+  list-style: none;
+  padding: 3rem;
+}
+
+#title-row{
+  color: white;
+  font-weight: 700;  
+  padding-bottom: 1rem;
+}
+
+.links li{
+  color: hsl(257, 7%, 63%);
+  font-weight: 700;
+  line-height: 2rem;
+  cursor: pointer;
+
+}
+.links li:hover{
+  color:  hsl(0, 0%, 75%);
+  transition: .2s ease;
+}
+.logo{
+  transform: translateY(130%);
+}
+
+.socials{
+  padding-top: 3.5rem;
+  display: flex;
+  cursor: pointer;
+}
+
+.fill{
+  width: 2rem;
+}
+
+

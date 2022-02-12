@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+body{
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+}
+body{
+  background: rgb(12,11,31);
+  background: linear-gradient(153deg, rgba(12,11,31,1) 0%, rgba(33,86,98,1) 21%, rgba(101,171,185,1) 100%); 
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#quote-box{
+  background-color: white;
+  height:400px;
+  aspect-ratio: 2/1;
+  border-radius: 12px;
+  padding: 3rem 1.2rem;
+}
+
+#quote-box h2{
+  font-size: 2rem;
+  margin-bottom: .7rem;
+}
+
+#text{
+  padding: 1.5rem 0;
+}
+#author{
+  display: block;
+  margin-bottom: 3rem;
+}
+hr{
+  width: 75%;
+  transform: translateX(17.5%)
+  
+}
+
+.buttons{
+  display:flex;
+  justify-content: space-between;
+  padding: 4rem 4rem;
+}
+#new-quote{
+  font-size: 1rem;
+  color: white;
+  background-color: #65abb9;
+  border:none;
+  padding: 1rem 2rem;
+  border-radius: 12px; 
+  cursor:pointer;
+}
+
+#new-quote:hover{
+  background-color:#215662;
+  transition: .2s ease;
+}
+#tweet-quote{
+  background-color: #65abb9;
+  height:50px;
+  aspect-ratio: 1/1;
+  border-radius: 12px;
+}
+#tweet-quote:hover{
+  background-color:#215662;
+  transition: .2s ease;
+}
+
+#tweet-quote i{
+  color: white;
+  font-size:1.8rem;
+  padding-top: 20%;
+}
